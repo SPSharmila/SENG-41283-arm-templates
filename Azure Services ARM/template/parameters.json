@@ -1,0 +1,45 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "7f200439-2180-4cef-83a3-3de22b39f420"
+        },
+        "name": {
+            "value": "expensetrackers"
+        },
+        "location": {
+            "value": "Australia Central"
+        },
+        "hostingPlanName": {
+            "value": "ASP-SENG41283rg-85fa"
+        },
+        "serverFarmResourceGroup": {
+            "value": "SENG41283rg"
+        },
+        "alwaysOn": {
+            "value": false
+        },
+        "storageAccountName": {
+            "value": "storageaccountseng4aca8"
+        },
+        "sku": {
+            "value": "Free"
+        },
+        "skuCode": {
+            "value": "F1"
+        },
+        "workerSize": {
+            "value": "0"
+        },
+        "workerSizeId": {
+            "value": "0"
+        },
+        "numberOfWorkers": {
+            "value": "1"
+        },
+        "linuxFxVersion": {
+            "value": "Java|8"
+        }
+    }
+}
