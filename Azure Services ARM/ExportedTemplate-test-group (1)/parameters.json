@@ -1,0 +1,12 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "sites_expensestrack_name": {
+            "value": null
+        },
+        "serverfarms_ServicePlan7217b470_b9c1_4b82_externalid": {
+            "value": null
+        }
+    }
+}
